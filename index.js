@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ['http://localhost:3000','https://product-items-fronted.vercel.app/']
+    origin: 'http://localhost:3000'
     methods: ['POST', 'GET', 'PUT', 'DELETE', 'PATCH'],
     credentials: true,
   })
